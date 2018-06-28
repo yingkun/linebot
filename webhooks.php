@@ -58,7 +58,7 @@ if (!empty($bot->isEvents)) {
 	
 	if($bot->message['text']==1)
 		$bot->replyMessageNew($bot->replyToken, "ทดสอบๆ"));
-
+	else $bot->replyMessageNew($bot->replyToken, "พังๆ"));
 	if ($bot->isSuccess()) {
 		echo 'Succeeded!';
 		exit();
