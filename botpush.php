@@ -1,5 +1,5 @@
-/*<?php
-
+<?php // callback.php
+/*
 
 
 require "vendor/autoload.php";
@@ -21,7 +21,7 @@ echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
 
 */
 
-<?php // callback.php
+
 require "vendor/autoload.php";
 require_once('vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php');
 $access_token = 'kFAq6FmEsEAE/1wRZQGKiVUQ2uOpdFr+dJNU7tueOHlJOh6X9bqm4m0qEokllRWuSN/83eea4IgpYIeeFGViz1kIyBCcBURNtN+P/xQMVG0RmHeNwarOMFCsd2nd0MuCULp71pONMpiO45cSHMJLaAdB04t89/1O/w1cDnyilFU=';
