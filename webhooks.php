@@ -25,7 +25,7 @@ if ( sizeof($request_array['events']) > 0 )
    if( $event['message']['type'] == 'text' )
    {
     $text = $event['message']['text'];
-    if($text==1) $reply_message = "ขมสุดหล่อ";
+    if($text=="ขมหล่อมั้ย") $reply_message = "โคตรหล่อ !";
     else $reply_message = 'ระบบได้รับข้อความ ('.$text.') ของคุณแล้ว';
    }
    else
