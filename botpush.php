@@ -5,7 +5,7 @@ $channelSecret = '3c460c21a65b27ac636b4026f6dba0fd';
 //$idPush = '1590354365';
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient($access_token);
 $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
-$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('Hello from NodeMCU');
+$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('มีคนมาบนครับเจ้าพ่อ !');
 $response = $bot->pushMessage('Uc326cc692064ddde0282e4d69f30c92c', $textMessageBuilder);
 
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
